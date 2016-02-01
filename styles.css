@@ -1,0 +1,39 @@
+body {
+  clear: both;
+  overflow: auto;
+  width: 700px;
+  margin: 10px auto; }
+
+table {
+  border-collapse: collapse;
+  width: 700px;
+  clear: both;
+  margin-top: 20px; }
+  table tr:nth-child(odd) {
+    background-color: #CBEBFF; }
+  table span {
+    float: right; }
+
+#form form {
+  overflow: auto;
+  border: 1px solid black;
+  padding: 10px;
+  width: 680px;
+  border-radius: 10px;
+  background-color: #CBEBFF; }
+  #form form #marc {
+    width: 100px; }
+  #form form #model {
+    width: 100px; }
+  #form form #year {
+    width: 40px; }
+  #form form #km {
+    width: 50px; }
+  #form form label {
+    width: 50px;
+    clear: both; }
+  #form form div {
+    margin-left: 10px;
+    float: left; }
+
+/*# sourceMappingURL=styles.css.map */

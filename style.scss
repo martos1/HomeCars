@@ -1,0 +1,55 @@
+body {
+	clear: both;
+	overflow: auto;
+	width: 700px;
+	margin: 10px auto;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 700px;
+	clear: both;
+	margin-top: 20px;
+	
+	tr:nth-child(odd){
+		background-color: #CBEBFF;
+		
+	}
+	span {
+		float: right;
+	}
+}
+
+#form{
+
+	form{
+		overflow: auto;
+		border: 1px solid black;
+		padding: 10px;
+		width: 680px;
+		border-radius: 10px;
+		background-color: #CBEBFF;
+		#marc{
+			width: 100px;
+		}
+		#model{
+			width: 100px;
+		}
+		#year{
+			width: 40px;
+		}
+		#km{
+			width: 50px;
+		}
+		label{
+			width: 50px;
+			clear: both;
+		}
+		div{
+			margin-left: 10px;
+			float: left;
+		}
+		
+	}
+}
